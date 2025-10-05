@@ -1,0 +1,24 @@
+body { font-family: Arial; background: #f7f7f7; text-align: center; }
+h1 { color: #333; }
+.product-list { display: flex; flex-wrap: wrap; justify-content: center; }
+.product { border: 1px solid #ccc; border-radius: 8px; background: #fff; padding: 10px; margin: 10px; width: 200px; }
+a { text-decoration: none; color: blue; }
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: white;
+  }
+  th, td {
+    padding: 10px;
+  }
+  button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover { background: darkgreen; }
+  
